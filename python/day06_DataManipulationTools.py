@@ -56,4 +56,15 @@ As you can see, the result is two. This is why:
 3 * 4 gives 12 → as a result of quotient and divisor multiplication;
 14 - 12 gives 2 → this is the remainder.
 """
+# Addition: the result is the sum of the two arguments.
+print(5 + 7)    # the result is 12 
+print(-5 + 7.)   # the result is 2.0
+print(5. + 7)   # the result is 12.0
+print(5. + -7.)  # the result is -2.0
+
+# Subtraction: the result is the difference of the two arguments.
+print(10 - 4)   # the result is 6
+print(-10 - 4.)  # the result is -14.0
+print(10. - 4)  # the result is 6.0
+print(-10. - 4.) # the result is -14.0
 
