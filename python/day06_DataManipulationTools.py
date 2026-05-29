@@ -44,5 +44,16 @@ print(10. // 3.) # the result is 3.0
 print(-6 // 4)  # the result is -2, not -1, because -2 is less than -1
 print(6. // -4) # the result is -2.0, not -1.0, because -2.0 is less than -1.0
 
+# Remainder (modulo): the result is the remainder of the division of the first argument by the second argument.
+print(14 % 4)  # the result is 2, because 14 divided by 4 is 3 with a remainder of 2
+print(14 % 4.) # the result is 2.0
+print(14. % 4) # the result is 2.0
+print(14. % 4.)# the result is 2.0
+"""
+As you can see, the result is two. This is why:
 
+14 // 4 gives 3 → this is the integer quotient;
+3 * 4 gives 12 → as a result of quotient and divisor multiplication;
+14 - 12 gives 2 → this is the remainder.
+"""
 
