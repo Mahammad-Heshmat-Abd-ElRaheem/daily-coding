@@ -83,8 +83,9 @@ print(2 ** 3 ** 2)  # the result is 512, not 64, because the calculation is cond
 # 3 ** 2 gives 9 → this is the result of the first exponentiation operation;
 # 2 ** 9 gives 512 → this is the result of the second exponentiation operation
 
-
-
-
-
-
+############################################## List of priorities of operators in Python ###############################################
+# 1. Parentheses ( )
+# 2. Exponentiation (**)
+# 3. Unary plus and minus (+x, -x)
+# 4. Multiplication, division, floor division, and modulo (*, /, //, %)
+# 5. Addition and subtraction (+, -)
