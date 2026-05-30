@@ -68,3 +68,23 @@ print(-10 - 4.)  # the result is -14.0
 print(10. - 4)  # the result is 6.0
 print(-10. - 4.) # the result is -14.0
 
+
+########################################################## Operators and their priorities ###############################################
+# Most of Python's operators have left-sided binding, which means that the calculation of the expression is conducted from left to right.
+# This simple example will show you how it works. Take a look:
+print(9 % 6 % 2)  # the result is 1, not 0, because the calculation is conducted from left to right
+# The calculation is conducted in the following way:
+# 9 % 6 gives 3 → this is the result of the first modulo operation;
+# 3 % 2 gives 1 → this is the result of the second modulo operation
+
+# But with th e exponentiation operator (**) the calculation is conducted from right to left, which means that the calculation of the expression is conducted from right to left.
+print(2 ** 3 ** 2)  # the result is 512, not 64, because the calculation is conducted from right to left
+# The calculation is conducted in the following way:
+# 3 ** 2 gives 9 → this is the result of the first exponentiation operation;
+# 2 ** 9 gives 512 → this is the result of the second exponentiation operation
+
+
+
+
+
+
