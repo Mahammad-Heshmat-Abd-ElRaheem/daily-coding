@@ -32,3 +32,15 @@ print("Your full name is:", full_name)
 word = input("Enter a word: ")
 print(word * 3)  # This will print the word three times in a row, without spaces in between. If you want to add spaces, you can do it like this:
 print((word + " ") * 3)  # This will print the word three times with a space in between each repetition.   
+
+################################Type conversions once again -> str() ##############################
+# The str() function converts a value to a string. This is useful when you want to combine a string with a non-string value. For example:
+age = int(input("How old are you? "))
+print("You are", str(age), "years old.")
+
+################################ Using input() to get multiple values from the user ##############################
+# You can use the split() method to get multiple values from the user in one line. For example:
+user_input = input("Enter your first name and last name separated by a space: ")
+first_name, last_name = user_input.split()  # This will split the input into two parts and assign them to first_name and last_name
+print("First Name:", first_name)
+print("Last Name:", last_name)
