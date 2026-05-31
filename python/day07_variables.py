@@ -20,11 +20,12 @@ our_variable = 30
 ############################## Reserved words ##############################
 # Python has a set of reserved words that cannot be used as variable names.
 # These include: 
-# and, as, assert, break, class, continue, def, 
-# del, elif, else, except, exec, finally, lambda,
-# for, from, global, if, import, in, is, not, or, 
-# pass, print, raise, return, try, while, with, yield
-
+"""
+and, as, assert, break, class, continue, def, 
+del, elif, else, except, exec, finally, lambda,
+for, from, global, if, import, in, is, not, or, 
+pass, print, raise, return, try, while, with, yield
+"""
 # Note: Python is case-sensitive, you can modify any of these words by changing the case of any letter, for example:
 And = 10  # Valid: 'And' is not a reserved word, but 'and' is a reserved word
 Import = 20  # Valid: 'Import' is not a reserved word, but 'import' is a reserved word

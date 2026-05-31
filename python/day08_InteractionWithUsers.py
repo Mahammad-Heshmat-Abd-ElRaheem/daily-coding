@@ -20,3 +20,15 @@ print("You are", age, "years old.")
 # You can also combine the input() function with type casting in one line:
 age = int(input("How old are you? "))  # This will prompt the user and convert the input to an integer in one step
 print("You are", age, "years old.")
+
+############################## String operators ##############################
+# You can use the + operator to concatenate strings, which means combining them together. For example:
+first_name = input("What is your first name? ")
+last_name = input("What is your last name? ")
+full_name = first_name + " " + last_name
+print("Your full name is:", full_name)
+
+# You can also use the * operator to repeat a string multiple times. For example:
+word = input("Enter a word: ")
+print(word * 3)  # This will print the word three times in a row, without spaces in between. If you want to add spaces, you can do it like this:
+print((word + " ") * 3)  # This will print the word three times with a space in between each repetition.   
