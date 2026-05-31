@@ -6,6 +6,8 @@ print('I like "Monty Python"')
 #  but if you want to use an apostrophe, you have to escape it
 print('I\'m Monty Python.') # or
 print("I'm Monty Python.")
+
+###################### Raw strings and multi-line strings ######################
 #  you can also use a raw string, which ignores escape characters
 print(r"I'm Monty Python.") 
 #  triple quotes can also be used for multi-line strings
