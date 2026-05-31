@@ -33,7 +33,7 @@ word = input("Enter a word: ")
 print(word * 3)  # This will print the word three times in a row, without spaces in between. If you want to add spaces, you can do it like this:
 print((word + " ") * 3)  # This will print the word three times with a space in between each repetition.   
 
-################################Type conversions once again -> str() ##############################
+################################ Type conversions once again -> str() ##############################
 # The str() function converts a value to a string. This is useful when you want to combine a string with a non-string value. For example:
 age = int(input("How old are you? "))
 print("You are", str(age), "years old.")
