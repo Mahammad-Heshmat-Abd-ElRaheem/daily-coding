@@ -60,3 +60,30 @@ if age >= 18:
         print("You are also eligible to drive.")
     else:
         print("You are not eligible to drive.")
+else:
+    print("You are not eligible to vote.")
+    if age >= 16:
+        print("You are eligible to eat junk food.")
+    else:
+        print("You are not eligible to eat junk food.")
+
+###################################################################################
+# Elif condition
+###################################################################################
+# The elif condition is used to check multiple conditions in a more concise way. It is short for "else if". The syntax of an elif statement is as follows:
+# if condition1:
+#     block of code to be executed if condition1 is true
+# elif condition2:
+#     block of code to be executed if condition2 is true
+# elif condition3:
+#     block of code to be executed if condition3 is true
+# else:
+#     block of code to be executed if all conditions are false
+
+age = int(input("Please enter your age: "))
+if age >= 18:
+    print("You are eligible to vote.")
+elif age >= 16:
+    print("You are eligible to drive.")
+else:
+    print("You are not eligible for any privileges.")  
