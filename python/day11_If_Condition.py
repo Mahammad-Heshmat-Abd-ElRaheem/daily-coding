@@ -29,9 +29,34 @@ if age >= 18:
 # else:
 #     block of code to be executed if the condition is false
 
-age = 18
+age = int(input("Please enter your age: "))
+
 if age >= 18:
     print("You are eligible to vote.")
 else:
     print("You are not eligible to vote.")
 
+################################################################################
+# Nested if-else statements
+################################################################################
+# Nested if-else statements are if-else statements that are contained within another if-else statement. They are used to check multiple conditions in a hierarchical manner.
+# The syntax of a nested if-else statement is as follows:   
+# if condition1:
+#     block of code to be executed if condition1 is true   
+#     if condition2:
+#         block of code to be executed if condition2 is true
+#     else:
+#         block of code to be executed if condition2 is false
+# else:
+#     if condition3:
+#         block of code to be executed if condition3 is true
+#     else:
+#         block of code to be executed if condition3 is false
+
+age = int(input("Please enter your age: "))
+if age >= 18:
+    print("You are eligible to vote.")
+    if age >= 21:
+        print("You are also eligible to drive.")
+    else:
+        print("You are not eligible to drive.")
