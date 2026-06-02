@@ -19,3 +19,19 @@ age = 18
 if age >= 18:
     print("You are eligible to vote.")
 
+################################################################################ 
+# If-else condition
+################################################################################
+# The if-else condition is used to execute one block of code if a specified condition is true, and another block of code if the condition is false.
+# The syntax of an if-else statement is as follows: 
+# if condition:
+#     block of code to be executed if the condition is true
+# else:
+#     block of code to be executed if the condition is false
+
+age = 18
+if age >= 18:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote.")
+
