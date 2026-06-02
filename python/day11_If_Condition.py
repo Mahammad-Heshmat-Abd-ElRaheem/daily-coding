@@ -87,3 +87,19 @@ elif age >= 16:
     print("You are eligible to drive.")
 else:
     print("You are not eligible for any privileges.")  
+
+###########################################################################################################
+# Exercise: Write a program that takes three numbers as input and prints the largest number among them.
+###########################################################################################################
+
+first_number = int(input("Please enter the first number: "))
+second_number = int(input("Please enter the second number: "))
+third_number = int(input("Please enter the third number: "))
+
+largest_number = first_number
+if second_number > largest_number:
+    largest_number = second_number
+if third_number > largest_number:
+    largest_number = third_number
+    
+print("The largest number is:", largest_number)
