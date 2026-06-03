@@ -15,3 +15,9 @@ print("""This is a multi-line string.
 It spans multiple lines.""")    
 #  you can also use triple quotes for single-line strings
 print("""This is a single-line string.""")
+
+########################### String concatenation and repetition ###########################
+#  you can concatenate strings using the + operator
+print("Hello, " + "World!") #the output will be: Hello, World!
+#  you can also repeat strings using the * operator
+print("Hello, " * 3) # the output will be: Hello, Hello, Hello,
