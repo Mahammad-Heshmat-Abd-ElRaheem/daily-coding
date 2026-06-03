@@ -69,3 +69,37 @@ print("hello, world!".isnumeric()) # the output will be: False
 print("123".isnumeric()) # the output will be: True
 print("hello, world!".isascii()) # the output will be: True
 print("hello, world! 👋".isascii()) # the output will be: False
+
+##################################### String formatting ######################################
+#  you can use f-strings for string formatting
+name = "Alice"
+age = 30
+print(f"Hello, my name is {name} and I am {age} years old.") # the output will be: Hello, my name is Alice and I am 30 years old.
+
+#  you can also use the format() method for string formatting
+print("Hello, my name is {} and I am {} years old.".format(name, age)) # the output will be: Hello, my name is Alice and I am 30 years old.
+
+#  you can also use the % operator for string formatting (old style)
+print("Hello, my name is %s and I am %d years old." % (name, age)) # the output will be: Hello, my name is Alice and I am 30 years old.
+
+#  you can also use the str.format() method with named placeholders
+print("Hello, my name is {name} and I am {age} years old.".format(name=name, age=age)) # the output will be: Hello, my name is Alice and I am 30 years old.
+
+#  you can also use the str.format() method with positional placeholders
+print("Hello, my name is {0} and I am {1} years old.".format(name, age)) # the output will be: Hello, my name is Alice and I am 30 years old.
+
+#  you can also use the str.format() method with mixed placeholders
+print("Hello, my name is {0} and I am {age} years old.".format(name, age=age)) # the output will be: Hello, my name is Alice and I am 30 years old.
+
+#  you can also use the str.format() method with format specifiers
+pi = 3.141592653589793
+print("The value of pi is {0:.2f}".format(pi)) # the output will be: The value of pi is 3.14
+print("The value of pi is {:.2f}".format(pi)) # the output will be: The value of pi is 3.14
+
+#  you can also use f-strings with format specifiers
+print(f"The value of pi is {pi:.2f}") # the output will be: The value of pi is 3.14
+
+#  you can also use the str.format() method with alignment and width
+print("{0:>10}".format("Hello")) # the output will be:      Hello (right aligned with width 10)
+print("{0:<10}".format("Hello")) # the output will be: Hello      (left aligned with width 10)
+print("{0:^10}".format("Hello")) # the output will be:   Hello    (center aligned with width 10)
