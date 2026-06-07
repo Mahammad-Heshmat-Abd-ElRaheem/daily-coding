@@ -1,2 +1,3 @@
-num = float(input("Enter a number: "))
-print("The square root of", num, "is", num ** 0.5)
+base = float(input("Enter the base of the triangle: "))
+height = float(input("Enter the height of the triangle: "))
+print("the Area of the triangle is :",(.5*base*height))
